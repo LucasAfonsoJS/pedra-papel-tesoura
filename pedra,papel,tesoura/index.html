@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 500;
+            padding: 30px;
+        }
+        h2{
+            text-align: center;
+            font-weight: 600;
+            visibility: hidden;
+            display: none;
+        }
+        .player-options img,
+        .enimy-options img{
+            max-width: 200px;
+            width: 100%;
+            opacity: 0.3;
+            cursor: pointer;
+        }
+        .player-options{
+            width: 50%;
+        }
+        .align{
+            display: flex;
+            text-align: center;
+            width: 800px;
+            margin: 0 auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>pedra papel ou tesoura</h1>
+    <h2 class="vencedor"></h2>
+    <hr>
+    <div class="align">
+        <div class="player-options">
+            <div><img  opt="pedra" src="rock.png"></div>
+            <div><img opt="papel" src="paper.png"></div>
+            <div><img opt="tesoura" src="scisor.png"></div>
+        </div><!--player-options -->
+        <div class="enimy-options">
+            <div><img opt="pedra" src="rock.png"></div>
+            <div><img opt="papel" src="paper.png"></div>
+            <div><img opt="tesoura" src="scisor.png"></div>
+    </div><!--player-options -->
+</div><!--align -->
+<script src="./funcões.js"></script>
+</body>
+</html>
